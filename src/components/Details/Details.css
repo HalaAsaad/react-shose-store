@@ -1,0 +1,57 @@
+.Details {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+}
+.Details .title{
+    color: var(--mainBlue);
+}
+.Details .company{
+    color: rgb(122, 121, 121);
+}
+.Details .price {
+    font-size: 1.2rem ;
+}
+.Details .p{
+    font-weight: bold;
+    font-size: large;
+}
+.Details .pColor{
+    color: gray;
+}
+.Details .button{
+    color: var(--lightBlue)  !important;
+    border: 1px solid var(--lightBlue);
+    padding: 5px 7px;
+    cursor: pointer;
+    font-size: 1.2rem !important;
+    font-weight: bold;
+    border-radius: 0.5rem !important;
+    background-color: var(--mainWhite);
+    font-family: 'Oswald', sans-serif;
+    outline: none;
+}
+.Details .button:hover {
+    color: var(--mainWhite)  !important;
+    border: 1px solid var(--mainWhite);
+    background-color: var(--lightBlue);
+}
+.Details .button2{
+    color: var(--mainYellow)  !important;
+    border: 1px solid var(--mainYellow);
+    padding: 5px 7px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1.2rem !important;
+    font-weight: bold;
+    border-radius: 0.5rem !important;
+    background-color: var(--mainWhite);
+    font-family: 'Oswald', sans-serif;
+    outline: none;
+}
+.Details .button2:hover {
+    color: var(--mainWhite)  !important;
+    border: 1px solid var(--mainWhite);
+    background-color: var(--mainYellow);
+}

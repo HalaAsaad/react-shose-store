@@ -1,0 +1,45 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   /* height: 5%;*/
+    height: 70px;
+    padding: 0px 2%;
+    background-color: var(--mainBlue);
+}
+.Navbar .div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.Navbar .div1 .logo {
+    max-height: 80%;
+    max-width: 100px;
+    
+}
+.Navbar .div1 .span {
+    color: var(--mainWhite);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.Navbar .div1 .span:hover,
+.Navbar .div1 .span:focus{
+    color: var(--lightBlue);
+}
+.Navbar .div2 .button {
+    background-color: transparent;
+    font-size: 1.4rem;
+    border: 0.05rem solid var(--lightBlue);
+    color:var(--lightBlue);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+}
+.Navbar .div2 .button:hover,
+.Navbar .div2 .button:focus {
+ outline: none;
+ background-color: var(--lightBlue);
+ color: var(--mainBlue);
+}

@@ -1,0 +1,28 @@
+.containerModal {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.containerModal .price {
+    color: gray;
+}
+.containerModal .button{
+    padding: 10px 15px;
+    
+    right: 0px;
+    bottom: 0px;
+    outline: none;
+    font-size: 1.2rem !important;
+    border-radius: 0.5rem  !important;
+    cursor: pointer;
+}
+.containerModal .blue {
+    color: var(--lightBlue) ;
+    background-color: var(--mainWhite);
+    border: 1px solid var(--lightBlue);
+}
+.containerModal .yello {
+    color: var(--mainYellow) ;
+    background-color: var(--mainWhite);
+    border: 1px solid var(--mainYellow);
+    margin-left: 15px;
+}
